@@ -1,0 +1,34 @@
+{
+  "name": "folivoro/layotter-bridge",
+  "description": "Integrates the Layotter plugin to folivoro/sloth.",
+  "type": "library",
+  "require": {
+    "folivoro/layotter": "^1.5",
+    "folivoro/sloth": "dev-main"
+  },
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Folivoro\\LayotterBridge\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "folivoro",
+      "email": "hello@folivoro.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "config": {
+    "allow-plugins": {
+      "composer/installers": true
+    }
+  },
+  "extra": {
+    "folivoro": {
+      "providers": [
+        "Folivoro\\LayotterBridge\\LayotterBridgeServiceProvider"
+      ]
+    }
+  }
+}
