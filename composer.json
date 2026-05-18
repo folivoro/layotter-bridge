@@ -4,7 +4,7 @@
   "type": "library",
   "require": {
     "folivoro/layotter": "^1.5",
-    "folivoro/sloth": "dev-main"
+    "folivoro/sloth": "^2.0"
   },
   "license": "MIT",
   "autoload": {
